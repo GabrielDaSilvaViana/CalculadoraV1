@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Calculadora Aprimorada</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="calculadora">
+      <button id="btnTabuada" class="btnTabuada">Ir para Tabuada</button>
+      <div id="display" class="display">0</div>
+      <button id="toggleHistory" class="btnToggle">Mostrar Histórico</button>
+      <div id="historico" class="historico oculto"></div>
+      <button id="clearHistory" class="btnClearHistory oculto">
+        Limpar Histórico
+      </button>
+      <div class="botoes">
+        <button class="limpar" id="clear">C</button>
+        <button id="backspace">⌫</button>
+        <button class="operador" data-op="%">%</button>
+        <button class="operador" data-op="/">÷</button>
+
+        <button data-num="7">7</button>
+        <button data-num="8">8</button>
+        <button data-num="9">9</button>
+        <button class="operador" data-op="*">×</button>
+
+        <button data-num="4">4</button>
+        <button data-num="5">5</button>
+        <button data-num="6">6</button>
+        <button class="operador" data-op="-">−</button>
+
+        <button data-num="1">1</button>
+        <button data-num="2">2</button>
+        <button data-num="3">3</button>
+        <button id="sqrt" class="operador">√</button>
+
+        <button data-num="0" style="grid-column: span 2">0</button>
+        <button data-num=".">.</button>
+        <button id="equals" class="operador">=</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

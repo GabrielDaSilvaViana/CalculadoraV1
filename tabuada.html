@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tabuada Dinâmica</title>
+    <link rel="stylesheet" href="tabuada.css" />
+  </head>
+  <body>
+    <div class="tabuada-container">
+      <h1>Tabuada Interativa</h1>
+      <form id="formTabuada">
+        <label for="multiplicador">Digite um número:</label>
+        <input type="number" id="multiplicador" min="0" max="9999" required />
+        <button type="submit">Gerar Tabuada</button>
+      </form>
+      <div id="resultado-tabuada"></div>
+      <a href="index.html" class="voltar">← Voltar para Calculadora</a>
+    </div>
+    <script src="tabuada.js"></script>
+  </body>
+</html>
