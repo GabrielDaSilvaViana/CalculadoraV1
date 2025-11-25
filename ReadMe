@@ -1,0 +1,48 @@
+# Calculadora Simples em HTML, CSS e JavaScript
+
+Projeto educativo de calculadora digital interativa para navegador, desenvolvido em HTML, CSS e JavaScript. O projeto reúne uma calculadora completa e uma página extra dedicada à tabuada para ampliar o aprendizado.
+
+## Descrição
+
+Este projeto traz duas ferramentas matemáticas esenciales:
+- **Calculadora:** realiza operações como soma, subtração, multiplicação, divisão, porcentagem, raiz quadrada e números decimais. Conta com painel de histórico persistente que pode ser visualizado, reutilizado ou apagado.
+- **Tabuada:** página separada para gerar e visualizar a tabuada de qualquer número inteiro.
+
+Interfaces modernas, navegação simples entre telas e recursos de acessibilidade via teclado e mouse.
+
+## Funcionalidades
+
+- Operações básicas de cálculo.
+- Suporte a números decimais.
+- Uso via botões e teclado do computador.
+- Botão para limpar (C) e apagar último caractere (⌫).
+- Cálculo de porcentagem e raiz quadrada.
+- Histórico persistente dos últimos 10 cálculos.
+- Visualização e reutilização fácil dos resultados.
+- Botão exclusivo para acessar a área de tabuada.
+
+## Como usar
+
+1. Abra o arquivo `index.html` em um navegador moderno para acessar a calculadora.
+2. Utilize os botões ou o teclado para inserir números e operações.
+3. Pressione `=` ou Enter para obter o resultado.
+4. Use `C` para limpar a expressão e `⌫` para apagar o último caractere.
+5. Consulte ou reutilize cálculos anteriores no painel de histórico.
+6. Clique em “Ir para Tabuada” para acessar a página de tabuada (`tabuada.html`).
+7. Na tabuada, digite o número desejado e visualize sua tabuada de multiplicação.
+
+## Estrutura dos arquivos
+
+- `index.html`: Estrutura da calculadora e histórico.
+- `styles.css`: Estilos visuais compartilhados.
+- `script.js`: Lógica da calculadora e histórico.
+- `tabuada.html`: página separada para geração de tabuadas.
+- `tabuada.css` e `tabuada.js`: estilo e funcionalidade da tabuada.
+
+## Requisitos
+
+Não necessita instalação de bibliotecas ou frameworks. Funciona em qualquer navegador web atualizado.
+
+## Contribuição  
+Autor: **Gabriel**
+
